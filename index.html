@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EzoogMatch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Screens are injected here by JS -->
+  </div>
+
+  <!-- Modal overlay -->
+  <div id="modal-overlay" class="modal-overlay hidden"></div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confetti-canvas" style="position:fixed;top:0;left:0;pointer-events:none;z-index:9999;width:100%;height:100%;"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase.js"></script>
+  <script src="js/svgs.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/screens/splash.js"></script>
+  <script src="js/screens/species.js"></script>
+  <script src="js/screens/hub.js"></script>
+  <script src="js/screens/review.js"></script>
+  <script src="js/screens/detail.js"></script>
+  <script src="js/screens/onboarding.js"></script>
+  <script src="js/screens/gameplay.js"></script>
+  <script src="js/screens/result.js"></script>
+  <script src="js/screens/admin.js"></script>
+  <script src="js/confetti.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
