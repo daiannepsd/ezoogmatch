@@ -38,5 +38,3 @@ const Router = {
     }
   }
 };
-
-const Screens = {};
